@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "RxNimble"
-  s.version      = "4.4.0"
+  s.version      = "4.5.0"
   s.summary      = "Nimble extensions that making unit testing with RxSwift easier 🎉"
   s.description  = <<-DESC
     This library includes functions that make testing RxSwift projects easier with Nimble.
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.subspec "Core" do |ss|
     ss.source_files  = "Source/Core/"
-	ss.dependency "Nimble", "~> 7.0"
+	ss.dependency "Nimble", "~> 8.0"
 	ss.dependency "RxSwift", "~> 4.2"
   end
 
